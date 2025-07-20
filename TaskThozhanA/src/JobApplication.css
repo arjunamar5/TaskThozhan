@@ -1,0 +1,103 @@
+/* JobApplication.css */
+.job-application-container {
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .application-form-container {
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 900px;
+  }
+  
+  .apply-title {
+  text-align: center;
+  color: #007bff;
+  background-color: #032545;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+
+  .apply-company-name {
+  font-size: 2rem; /* Set the font size */
+  font-weight: bold; /* Make the company name bold */
+  color: #252121; /* Set the color of the company name */
+  margin-top: 10px; /* Add some space above the company name */
+  margin-bottom: 5px; /* Add space below the company name */
+  text-transform: capitalize; /* Capitalize the first letter of each word */
+  text-align: center;
+  }
+
+  .apply-description {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .application-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 1rem;
+    color: #032545;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .submit-button {
+    padding: 15px;
+    font-size: 1.1rem;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0066cc;
+  }
+  
+  @media (max-width: 768px) {
+    .application-form-container {
+      padding: 20px;
+    }
+  }

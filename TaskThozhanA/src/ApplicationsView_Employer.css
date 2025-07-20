@@ -1,0 +1,107 @@
+.applications-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem; /* Increased padding for a spacious look */
+  background-color: #f9f9fb;
+  border-radius: 12px; /* Slightly larger rounded corners */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Larger shadow for depth */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.applications-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1E90FF;
+  background-color: #003366;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  display: inline-block;
+  width: 840px;
+  font-weight: bold;
+}
+
+.no-applications {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  font-size: 2rem; /* Slightly larger font size */
+}
+
+.application-list {
+  list-style: none;
+  padding: 0;
+}
+
+.application-card {
+  background: #fff;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem; /* Increased padding for better spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); /* Soft shadow for depth */
+}
+
+.application-card p {
+  margin: 0.6rem 0;
+  font-size: 1.4rem; /* Increased font size for readability */
+  color: #333; /* Darker text color */
+}
+
+.button-group {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 10px; /* Spacing between buttons */
+}
+
+.select-button,
+.reject-button {
+  padding: 0.8rem 1.5rem; /* Increased button padding */
+  border: none;
+  border-radius: 6px; /* Slightly rounded corners for buttons */
+  font-size: 1.1rem; /* Larger font size for buttons */
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.select-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.reject-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.select-button:hover {
+  background-color: #218838;
+  transform: scale(1.05); /* Slight scale-up effect */
+}
+
+.reject-button:hover {
+  background-color: #c82333;
+  transform: scale(1.05); /* Slight scale-up effect */
+}
+
+/* Congrats and Rejection Messages */
+.congrats-message {
+  color: green;
+  background-color: #e6ffe6;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.rejection-message {
+  color: #b30000;
+  background-color: #ffe6e6;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+}

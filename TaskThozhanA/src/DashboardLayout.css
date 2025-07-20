@@ -1,0 +1,74 @@
+/* DashboardLayout.css */
+
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.dashboard-topbar {
+    background-color: #4176b2; /* Original background color */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; /* Use 100% width */
+    height: 90px; /* Fixed height */
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.topbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.logo {
+    width: 120px; /* Adjust logo size */
+    height: 80px;
+    margin-right: 20px;
+}
+
+.dashboard-links {
+    display: flex;
+    gap: 20px;
+}
+
+.dashboard-link {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dashboard-link:hover {
+    background-color: #4c5c70;
+}
+
+.logout-button {
+    background-color: #e63946;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Pushes all content below the dashboard */
+.dashboard-content {
+    margin-top: 90px; /* Adjusted to match the height of the topbar (90px) */
+    padding: 20px;
+    min-height: calc(100vh - 90px); /* Prevents content collapse, adjusted for the fixed header */
+    background-color: transparent;
+}

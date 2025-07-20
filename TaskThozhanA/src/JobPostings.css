@@ -1,0 +1,163 @@
+/* JobPostings.css */
+.job-postings-container {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .top-box {
+    background-color: #000000;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .top-box h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .top-box p {
+    font-size: 1.2rem;
+  }
+  
+  .main-container {
+    display: flex;
+    padding: 30px;
+  }
+  
+  .search-column {
+    width: 25%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  
+  
+  .search-column input, .search-column select, .search-column button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-column button {
+    background-color: #1e90ff;
+    color: white;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .search-column button:hover {
+    background-color: #0066cc;
+  }
+  
+  .job-listings-column {
+    width: 70%;
+  }
+  
+  .recent-jobs-title {
+    font-size: 2.5rem;
+    color: #9fb2c7;
+    background-color: #032545;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .search-heading {
+    font-size: 1.5rem;
+    color:  #1890ff;
+    background-color: #032545;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .search-heading h2 {
+    margin-bottom: 20px;
+  }
+  
+  .job-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .job-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .job-header i {
+    font-size: 2rem;
+    color: #032545;
+  }
+  
+  .job-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #19538a;
+  }
+
+  .job-title-company {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #4d90cf;
+  }
+  
+  .job-location {
+    font-size: 1.2rem;
+    color: #555;
+  }
+
+  .job-description {
+    font-size: 1.5rem;
+    margin-top: 5px;
+    color: #372e2e;
+  }
+  
+  .apply-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #032545;
+    color: white;
+  }
+  
+  footer a {
+    color: #f8f8f8;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,217 @@
+/* AboutTaskThozhan.css */
+
+/* Main container for the About page */
+.about-container {
+  margin-top: 50px; /* Adjusting the margin-top to avoid too much space from the top */
+  padding: 40px;
+  background-color: #ebedf0; /* Light background color for the About page */
+  border-radius: 50px;
+  max-width: 1200px;
+  margin: 30px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for visual depth */
+}
+
+/* Page Title */
+.page-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Section Titles */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(63, 126, 236);
+}
+
+/* Content Section Styling */
+.intro, .features, .team, .contact {
+  margin-bottom: 30px;
+  padding: 10px;
+  font-size: 1.4em;
+}
+
+/* Features List */
+.features ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  font-size: 1.4em;
+}
+
+.features li {
+  font-size: 1.4rem;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+/* Links Styling */
+a {
+  color: #4176b2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact {
+  font-size: 1.4em;
+  color: #000000;
+  justify-items: center;
+}
+
+.contact a {
+  font-weight: bold;
+}
+
+/* Button Styling (Go to Login) */
+.navigation-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-login {
+  background-color: #4176b2;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-login:hover {
+  background-color: #365d8f;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .about-container {
+    padding: 20px;
+    margin: 15px;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .features li {
+    font-size: 1rem;
+  }
+
+  .btn-login {
+    width: 100%;
+    padding: 12px;
+  }
+}
+
+/* Team Section */
+.team {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.team h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4176b2;
+  margin-bottom: 20px;
+}
+
+.team-members {
+  display: grid; /* Use grid layout for the 1x3 matrix */
+  grid-template-columns: repeat(4, 1fr); /* Create 3 equal-width columns */
+  gap: 20px; /* Space between the grid items */
+  justify-items: center; /* Center the items horizontally */
+  margin-top: 30px;
+  color: white;
+}
+
+.team-member {
+  background-color: #f4f6f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Fixed width for each team member */
+  text-align: center;
+  display: flex; /* Use Flexbox for centering content */
+  flex-direction: column; /* Stack the elements vertically */
+  align-items: center; /* Center elements horizontally */
+  justify-content: center; /* Center elements vertically */
+  color: white;
+}
+
+.team-photo {
+  width: 120px; /* Adjust photo size */
+  height: 120px;
+  border-radius: 50%; /* Circle shape */
+  object-fit: cover;
+  margin-bottom: 15px;
+  display: block; /* Ensures image is treated as a block-level element */
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.team-member h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Links Styling */
+a {
+  color: #4176b2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .team-members {
+    grid-template-columns: 1fr 1fr; /* 2 columns for smaller screens */
+  }
+
+  .team-member {
+    width: 90%; /* Make each item take 90% of the container */
+  }
+}
+
+
+/* Add styles for the About logo */
+.about-logo-container {
+  text-align: center;  /* Center align the logo */
+  margin-top: 20px;  /* Add space between the title and logo */
+  margin-bottom: 20px;
+  
+}
+
+.about-logo {
+  width: 300px; /* Adjust the size of the logo */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Make sure the logo is displayed as a block element */
+  margin: 0 auto; /* Center the logo */
+  border-radius: 20%;
+  box-shadow: 0 4px 10px rgba(33, 92, 230, 0.1);
+}

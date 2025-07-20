@@ -1,0 +1,92 @@
+/* Ensure no scrolling and center align the entire container */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrolling */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #0b3d91, #001f4d);
+  }
+  
+  /* Top-left logo */
+  .home-logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 160px; /* Bigger */
+    height: auto;
+  }
+  
+  /* Main container centered in the viewport */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 600px; /* Ensures full height */
+  }
+  
+  /* Title styling */
+  
+.home-title {
+    font-size: 3.5em; /* Bigger title */
+    margin-bottom: 50px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif; /* Elegant and formal font */
+}
+
+  
+  /* Role selection container */
+  .role-selection {
+    display: flex;
+    gap: 120px; /* Increased spacing */
+  }
+  
+  /* Role box styling */
+  .role-box {
+    width: 280px; /* Increased size */
+    height: 330px; /* Adjusted height */
+    padding: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Space between icon and text */
+  }
+  
+  /* Hover effect */
+  .role-box:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Icon styling */
+  .role-box img {
+    width: 180px; /* Bigger icon */
+    height: 180px;
+  }
+  
+  /* Text styling */
+  .role-text {
+    font-size: 2em; /* Bigger text */
+    margin-top: 5px;
+    font-family: 'Playfair Display', serif;
+  }
+  

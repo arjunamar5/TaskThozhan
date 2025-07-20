@@ -1,0 +1,9 @@
+# Ignore root-level node_modules
+node_modules/
+.env
+.DS_Store
+*.log
+
+# Ignore nested node_modules (in backend/frontend)
+TaskThozhanA/node_modules/
+TaskThozhan_backend/node_modules/

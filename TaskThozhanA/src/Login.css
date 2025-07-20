@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+/* Full-page styling */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0a2a43, #0c3e64); /* Gradient background */
+  font-family: 'Poppins', sans-serif; /* Modern professional font */
+
+  /* New Changes for Page Scrolling */
+  overflow-y: auto; /* Enable scrolling on the entire page */
+  scroll-behavior: smooth; /* Smooth scrolling effect */
+}
+
+/* Top-left TaskThozhan Logo */
+.top-left-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 160px;
+}
+/* Center the entire page-container */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center */
+  align-items: center; /* Horizontally center */
+  height: 480px; /* Full viewport height */
+  width: 100%; /* Full width */
+}
+
+/* Centered auth container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.12); /* Transparent card */
+  padding: 40px;
+  border-radius: 20px; /* Smoother rounded corners */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35); /* Enhanced soft shadow */
+  backdrop-filter: blur(12px); /* Frosted glass effect */
+  margin-top: 500px;
+}
+
+.container-login-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.12); /* Transparent card */
+  padding: 40px;
+  border-radius: 20px; /* Smoother rounded corners */
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35); /* Enhanced soft shadow */
+  backdrop-filter: blur(12px); /* Frosted glass effect */
+  margin-top: 150px;
+}
+
+
+/* Welcome text */
+.auth-title {
+  font-size: 2.8em;
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+/* Input fields */
+.auth-input {
+  width: 99%;
+  padding: 14px;
+  margin: 12px 0;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  outline: none;
+  background: rgba(255, 255, 255, 0.3); /* Transparent input */
+  color: white;
+  transition: 0.3s ease;
+}
+
+.auth-input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Input focus effect */
+.auth-input:focus {
+  background: rgba(255, 255, 255, 0.5);
+  transform: scale(1.03);
+}
+
+/* Login Button */
+.auth-button {
+  width: 100%; /* Same width as input fields */
+  padding: 14px;
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+.auth-button:hover {
+  background-color: #0066cc;
+  transform: scale(1.05);
+}
+
+/* Sign-up & Forgot Password */
+.auth-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 16px;
+  font-size: 1.1em;
+  font-family: 'Playfair Display', serif;
+}
+
+.auth-footer-single {
+  display: flex;
+  justify-content:center;
+  width: 80%;
+  margin-top: 5px;
+  font-size: 1.1em;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.auth-link {
+  color: #f8f8f8;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
