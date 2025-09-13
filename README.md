@@ -66,7 +66,7 @@ The platform supports user registration, login, secure password handling, and ef
 - Git
 
 ### 1. Clone the repository
-  - git clone https://github.com/yourusername/TaskThozhan.git
+  - git clone https://github.com/arjunamar5/TaskThozhan.git
   
   - cd TaskThozhan
 
