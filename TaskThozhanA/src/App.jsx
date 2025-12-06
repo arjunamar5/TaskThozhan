@@ -92,7 +92,7 @@ import JobPostings_creation from "./JobPostings_creation"; // JobPostings compon
 import JobApplication from "./JobApplication"; // JobApplication component
 import Home from "./Home"; // Home page, this will be the default page
 
-import LoginEmployee from "./loginEmployee"; // Other necessary components
+import LoginEmployee from "./LoginEmployee"; // Other necessary components
 import LoginEmployer from "./LoginEmployer";
 import EmployeeRegister from "./EmployeeRegister";
 import EmployerRegister from "./EmployerRegister";
