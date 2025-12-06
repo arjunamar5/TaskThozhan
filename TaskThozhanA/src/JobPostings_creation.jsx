@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './jobpostings_creation.css';
+import './Jobpostings_creation.css';
 
 const JobPostings_creation = () => {
   const locationData = {
